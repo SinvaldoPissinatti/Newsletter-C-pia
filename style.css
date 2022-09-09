@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Righteous&display=swap');   
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-apresentacao {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Righteous', cursive;
+}
+
+.icone {
+    max-width: 100px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 25px;
+    padding: 0px 10px;
+    word-spacing: 1px;
+}
+
+.paragrafo {
+    text-align: center;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+.form-corpo {
+    width: 30%;
+    margin-top: 5px;
+}
+
+.formulario-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-text > input {
+    width: 80%;
+    height: 48px;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+.button-submit{
+    width: 80%;
+}
+
+.button-submit > button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #0070f3;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px #0070f3;
+}
+
+.button-submit > button:hover {
+    background-color: #0071f3ea;
+}
